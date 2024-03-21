@@ -1,11 +1,14 @@
  
 import './App.css';
-import Counter from './feature/counter/Counter';
+import AddPostForm from './feature/posts/AddPostForm';
+import PostsList from './feature/posts/PostsList';
+ 
 
 function App() {
   return (
    <main>
-    <Counter/>
+    <AddPostForm/>
+    <PostsList />
    </main>
   );
 }
